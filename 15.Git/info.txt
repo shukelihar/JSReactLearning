@@ -1,0 +1,13 @@
+git config --local user.name "Ihar"
+git config --local user.email shukelihar@gmail.com - локально
+git config --global user.email shukelihar@gmail.com - глобально
+
+git status - узнать статус
+
+Добавляем файлы после их изменения:
+git add -A - переносим статус в индекс
+git add 15.Git/scripts.js - определённый файл
+git add *.js - все файлы js
+
+Добавляем что сделали:
+git commit -a -m"First commit"
