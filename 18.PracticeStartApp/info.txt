@@ -1,0 +1,39 @@
+git config --local user.name "Ihar"
+git config --local user.email shukelihar@gmail.com - локально
+git config --global user.email shukelihar@gmail.com - глобально
+
+git status - узнать статус
+
+Добавляем файлы после их изменения:
+git add -A - переносим статус в индекс
+git add 15.Git/scripts.js - определённый файл
+git add *.js - все файлы js
+
+Добавляем что сделали, создаём контрольную точку (тоже самое что создать новую папку):
+git commit -a -m"First commit"
+
+
+Посмотреть все коммиты
+git log
+
+
+…or create a new repository on the command line
+    echo "# JSReactLearning" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/shukelihar/JSReactLearning.git
+    git push -u origin main
+
+…или нажмите существующий репозиторий из командной строки
+    git remote add origin https://github.com/shukelihar/JSReactLearning.git
+    Локальный связан с глобальным
+
+    git branch -M main
+
+    git push -u origin main (Вместо main - master)
+    Закидываем на сервер
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
