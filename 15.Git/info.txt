@@ -26,7 +26,7 @@ git log
     git remote add origin https://github.com/shukelihar/JSReactLearning.git
     git push -u origin main
 
-…or push an existing repository from the command line
+…или нажмите существующий репозиторий из командной строки
     git remote add origin https://github.com/shukelihar/JSReactLearning.git
     Локальный связан с глобальным
 
@@ -34,5 +34,6 @@ git log
 
     git push -u origin main (Вместо main - master)
     Закидываем на сервер
+
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
