@@ -45,3 +45,5 @@ personalMovieDB.movies[moviesOne] = moviesOneRaiting;
 personalMovieDB.movies[moviesTwo] = moviesTwoRaiting;
 
 console.log(personalMovieDB);
+
+
